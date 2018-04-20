@@ -1,0 +1,55 @@
+/* ---------------  HTML --------------- */
+
+body{
+font-family: 'Source Code Pro', monospace;
+background-color: black;
+}
+
+p{
+  font-size: 1.25em;
+  color: white;
+}
+
+
+
+
+/* ---------------  CLASSES --------------- */
+
+
+
+
+
+
+
+/* ---------------  IDS --------------- */
+
+
+#profile{
+  /* background-color: pink; */
+}
+
+#bio{
+  /* background-color: green; */
+  display: flex;
+}
+
+
+#homeContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hi{
+  /* background-color: blue; */
+  font-family: Helvetica;
+  font-size: 3em;
+  color: tomato;
+  align-self: flex-start;
+}
+
+#description{
+  align-self: center;
+}
