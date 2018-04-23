@@ -1,13 +1,25 @@
 /* ---------------  HTML --------------- */
 
+strong{
+    color: yellow;
+}
+
+a{
+    color: pink;
+    font-size: 1.2em;
+    text-align: center;
+}
 ul{
     list-style-type: none;
     padding-left: 0;
+    text-align: left;
 }
 
 li{
-    font-size: 1.5em;
+    font-size: 2em;
     color: yellow;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
 h1{
@@ -17,6 +29,8 @@ h1{
 h2{
     font-size: 5em;
     text-decoration: underline;
+    color: grey;
+    padding-bottom: 20px;
 }
 
 h3{
@@ -25,8 +39,14 @@ h3{
 
 p{
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+/* iframe{
+    display: none;
+} */
 
 
 /* ---------------  CLASSES --------------- */
@@ -37,42 +57,94 @@ p{
     font-size: 2.25em;
 }
 
+.picture:hover{
+    display: inline;
+    background-color: white;
+    color: black;
+}
+
+.vid:hover{
+    display: inline;
+    background-color: white;
+    color: black;
+}
+
+
+
+
 /* ---------------  IDS --------------- */
 
 
 #masterContainer{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
+    /* display: flex; */
+    /* height: 100vh; */
+    /* width: 100vw; */
     /* background-color: pink; */
-    align-items: center;
+    /* align-items: center; */
 }
 
+#workContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
 
 #secondColumn{
+    /* width: 960px;
+    height: 650px; */
     /* background-color: blue; */
     align-self: center;
     justify-content: center;
-    /* padding-left: 100px; */
+
 }
 
 #goBack{
     /* background-color: white; */
     padding-bottom: 5px;
     color: tomato;
+    display: inline;
 }
 
 #firstColumn{
     align-self: center;
-    text-align: center;
+    text-align: left;
     /* background-color: green; */
-    /* padding-left: 10px; */
+    /* padding-left: 50px; */
 }
 
 #workRow{
-    align-self: center;
-    /* justify-content: center; */
-    /* height: 100vh; */
-    /* width: 80vw; */
+    width: 100%;
+    /* height: 100%; */
+    /* align-self: center; */
+    /* background-color: blue; */
+}
+
+.workColumn{
+    text-align: center;
     /* background-color: yellow; */
+}
+
+#visuals{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: blue; */
+}
+
+#web{
+    align-self: flex-start;
+    /* background-color: yellow; */
+    text-align: left;
+}
+
+#web{
+    text-align: left;
+}
+
+#install{
+    text-align: right;
+}
+
+#picture{
+
 }

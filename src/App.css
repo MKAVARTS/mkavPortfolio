@@ -1,4 +1,13 @@
+
+
+
 /* ---------------  HTML --------------- */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 body{
 font-family: 'Source Code Pro', monospace;
@@ -12,27 +21,12 @@ p{
 
 
 
-
-/* ---------------  CLASSES --------------- */
-
-
-
-
-
-
-
 /* ---------------  IDS --------------- */
 
 
-#profile{
-  /* background-color: pink; */
-}
-
 #bio{
-  /* background-color: green; */
   display: flex;
 }
-
 
 #homeContainer{
   width: 100vw;
@@ -43,7 +37,6 @@ p{
 }
 
 #hi{
-  /* background-color: blue; */
   font-family: Helvetica;
   font-size: 3em;
   color: tomato;
@@ -51,13 +44,25 @@ p{
 }
 
 #here{
-  color:yellow;
-  font-size: 2.5em;
-  margin-top: 2px;
+  color: yellow;
+  font-size: 2em;
+
 }
 
 #description{
   align-self: center;
   text-align: left;
-  font-size: 1.25em;
+}
+
+#profilePic {
+  margin-top: 100px;
+  padding: 20px;
+  }
+
+@media (max-width: 576px){
+
+  p{
+    font-size: 0.9em;
+  }
+
 }
