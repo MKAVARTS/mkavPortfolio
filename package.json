@@ -2,7 +2,7 @@
   "name": "mkavsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{YOUR GITHUB NAME}.github.io/{YOUR REPO NAME}",
+  "homepage": "http://mkavarts.github.io/portfolio",
   "dependencies": {
     "firebase": "^4.13.0",
     "react": "^16.3.2",
