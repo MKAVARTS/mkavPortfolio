@@ -49,8 +49,8 @@ const workInfo = [
     {
         id: "basecamp",
         title: "Basecamp",
-        work1: "https://player.vimeo.com/video/205113973",
-        work2: "https://www.youtube.com/watch?v=ColAKCjjYaU",
+        work1: "https://www.youtube.com/watch?v=ColAKCjjYaU",
+        work2: "https://player.vimeo.com/video/205113973",
         work3: "https://www.youtube.com/embed/KymMeb70CQQ",
         description: "In 2016 I created visuals for Basecamp that were used as a part of a design coined 'Box 1.0'. The concept, created by Johnathan Kingsbury of Nashville, was a cube whose walls were custom LED fixtures, and were covered in a veil-like material that could be projected on, creating an immersive experience for the group live. Basecamp also used this design at TEDx Nashville in 2016",
         link : "http://owsla.com/artist/basecamp/",
