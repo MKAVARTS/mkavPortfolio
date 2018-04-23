@@ -10,7 +10,7 @@ export default () => {
     <Router>
      <div>
         <Route exact path="/home" component ={Home} />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route path="/work" component={Work} />
      </div>
     </Router>
