@@ -23,8 +23,6 @@ render() {
         </div>
      </div>
     </div>
-
-
       );
     }
 }
