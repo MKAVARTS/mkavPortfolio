@@ -2,6 +2,8 @@ import paramore from '../images/paramore.jpg';
 import soren from '../images/soren.png';
 import facemajik from '../images/facemajikbig.png';
 import drawloop from '../images/DrawLoop.png';
+import nation from '../images/nation.png';
+import thera from '../images/thera.png';
 import workStyle from './work.css';
 
 
@@ -10,7 +12,7 @@ const workInfo = [
         id: "drawloop",
         title: "DrawLoop",
         description: "DrawLoop is a browser-based sound drawing application made with p5.js. It utilizes different draw types or 'tools' that have associated sounds with them. You can draw and create sound at the same time, modify or delete your drawing, and finally save the finished product to your desktop to share.",
-        link: '',
+        link: 'https://github.com/MKAVARTS/DrawLoop',
         pic: drawloop,
 
     },
@@ -18,15 +20,15 @@ const workInfo = [
         id: "nation",
         title: "State of the Nation",
         description: "State of the Nation is my first experiment with react.js. Pressing the button on the page grabs the top 20 stories from the New York Times, which then get split into individual words, and delivered to the page in rapid succession. By seeing these words removed from a central context, one can get begin to get an idea of the climate of one of Americas most prominent media outlets.",
-        link: '',
-        pic: '',
+        link: 'https://github.com/MKAVARTS/reactStateOfTheNation',
+        pic: nation,
     },
     {
         id: "thera",
         title: "Thera-3d",
         description: "Thera-3d is an experiment with webGL, and CSS. A catalog of futuristic 3D 'therapy' items float with their description of benefits & prices beneath them. A tongue in cheek way of expressing these basic 3D primitives as a highly desirable and novel object. ",
-        link: '',
-        pic: '',
+        link: 'https://github.com/MKAVARTS/product-cards',
+        pic: thera,
     },
 
     {

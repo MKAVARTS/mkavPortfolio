@@ -10,7 +10,7 @@ class Content extends Component{
     <div>
         <h2>{this.props.title}</h2>
         <p>{this.props.description}</p>
-        {/* <a className='contentLink' href={this.props.link}>{this.props.link}</a> */}
+        <a className='contentLink' href={this.props.link}>{this.props.link}</a>
         <div className = 'row'>
             <div className="embed-responsive embed-responsive-16by9">
             <iframe title={"work1"} className="embed-responsive-item" src={this.props.work1} frameBorder={0} webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
