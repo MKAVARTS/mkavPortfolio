@@ -98,9 +98,9 @@ class Work extends Component {
                         <Collapse isOpen={this.state.webCollapse}>   
                         <div className='workColumn'>        
                         <ul >
-                            <li onClick = {this.selectVid} id="drawloop">DrawLoop</li>
-                            <li onClick = {this.selectVid} id="nation" >State of the Nation</li>
-                            <li onClick = {this.selectVid} id="thera" >Thera-3D</li>
+                            <li className='workItem' onClick = {this.selectVid} id="drawloop">DrawLoop</li>
+                            <li className='workItem' onClick = {this.selectVid} id="nation" >State of the Nation</li>
+                            <li className='workItem' onClick = {this.selectVid} id="thera" >Thera-3D</li>
                         </ul>
                         </div>
                     </Collapse>
@@ -111,10 +111,10 @@ class Work extends Component {
                         <Collapse isOpen={this.state.liveCollapse} >
                         <div className="col">        
                             <ul className="text-center">
-                                <li  onClick = {this.selectVid} id='paramore' className='picture'>Paramore</li>
-                                <li  onClick = {this.selectVid} id='facemajik' className='vid'>Facemajik</li>
-                                <li  onClick = {this.selectVid} id='soren' className='vid'>Soren Bryce</li>
-                                <li  onClick = {this.selectVid} id='basecamp' className='vid'>Basecamp</li>
+                                <li  onClick = {this.selectVid} id='paramore' className='workItem' >Paramore</li>
+                                <li  onClick = {this.selectVid} id='facemajik' className='workItem' >Facemajik</li>
+                                <li  onClick = {this.selectVid} id='soren' className='workItem' >Soren Bryce</li>
+                                <li  onClick = {this.selectVid} id='basecamp' className='workItem' >Basecamp</li>
                             </ul> 
                         </div>
                         </Collapse>
@@ -125,9 +125,9 @@ class Work extends Component {
                         <Collapse isOpen={this.state.installCollapse}> 
                         <div className="workColumn">    
                             <ul className="text-right">
-                                <li  onClick ={this.selectVid} id='chaos' className='vid'>Consonance and Chaos</li>
-                                <li  onClick={this.selectVid} id='face' className='vid'>Your Face Here</li>
-                                <li  onClick = {this.selectVid} id='action' className='vid'>Action!</li>
+                                <li  onClick ={this.selectVid} id='chaos' className='vid' className='workItem'>Consonance and Chaos</li>
+                                <li  onClick={this.selectVid} id='face' className='vid' className='workItem'>Your Face Here</li>
+                                <li  onClick = {this.selectVid} id='action' className='vid' className='workItem'>Action!</li>
                             </ul> 
                         </div>
                         </Collapse>
