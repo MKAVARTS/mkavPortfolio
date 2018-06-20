@@ -12,7 +12,8 @@ class Content extends Component{
             reRenderWork: false,
             hideWork1: 'initial',
             hideWork2: 'inital',
-            hideWork3 : 'initial'
+            hideWork3 : 'initial',
+            hideWork4: 'initial'
         };
     }
 
