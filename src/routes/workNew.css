@@ -1,0 +1,82 @@
+
+
+
+.card-title{
+    font-size: 22px;
+    /* font-weight: bolder; */
+    background-color: gray;
+    color: 'white';
+}
+
+.card{
+    border: 2px solid tomato;
+}
+
+h2{
+    color: white;
+    font-size: 1.2em;
+}
+
+h3{
+    color: tomato;
+    text-decoration: underline;
+}
+
+.web{
+    color: #ADD8E6;
+}
+
+.live{
+    color: yellow;
+}
+
+.install{
+    color: #98FB98
+}
+
+p{
+    font-size: 1.5em;
+    color: white;
+}
+
+#workBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#workContainer{
+    background-color: pink;
+}
+
+
+#header{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+
+.web :hover{
+    border: 10px solid red;
+}
+
+
+
+@media (max-width: 900px){
+    #header{
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    p{
+        font-size: 1.2em;
+        color: white;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+}

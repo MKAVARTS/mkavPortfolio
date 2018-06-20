@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './routes/Home';
 import Work from './routes/Work';
+import WorkNew from './routes/WorkNew';
 import './App.css';
 import Routes from './routes';
 

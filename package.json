@@ -5,6 +5,7 @@
   "homepage": "http://mkavarts.github.io/portfolio/",
   "dependencies": {
     "firebase": "^4.13.0",
+    "mdbootstrap": "^4.5.1",
     "react": "^16.3.2",
     "react-browser-router": "^2.1.1",
     "react-dom": "^16.3.2",
