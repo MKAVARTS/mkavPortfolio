@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import paramore from '../images/paramore.jpg';
 import './workNew.css'
 
 
@@ -34,6 +33,10 @@ class Content extends Component{
         this.props.reRenderWork();
     }
 
+    openNewWindow = () => {
+        window.open(this.props.link1,"","resizable=yes,toolbar=no,status=no,location=no,menubar=no,scrollbars=yes");
+    }
+
     render(){
 
     return(
@@ -49,7 +52,7 @@ class Content extends Component{
             <h3>LINKS</h3>
         </div>
         <div className='row'>
-            <a className='contentLink' target='blank' href={this.props.link1}> {this.props.linkDescription1}</a>
+            <p className='contentLink' onClick={this.openNewWindow}> {this.props.linkDescription1}</p>
             <a className='contentLink' target='blank' href={this.props.link2}> {this.props.linkDescription2}</a>
             <a  className='contentLink' target='blank' href={this.props.link3}> {this.props.linkDescription3}</a>
         </div>
