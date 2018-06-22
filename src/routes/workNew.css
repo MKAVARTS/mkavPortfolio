@@ -8,6 +8,14 @@
     color: 'white';
 }
 
+.contentLink{
+    color: blue;
+}
+
+.contentLink:hover{
+    background-color: white;
+}
+
 .card{
     border: 2px solid tomato;
 }
